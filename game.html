@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spelling-Bees Game</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-game.css">
+
+</head>
+
+<body style="background-image: url(img/background.png);
+ height:100%: 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;">
+    <header id="clouds">
+
+        <img class="bee" src="img/bee.png" alt="bee image" width="200px" height="200px">
+        <h1 class="title">Spelling Game</h1>
+        <ul id="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+    </header>
+
+    <section id="sec1">
+
+        <p id="rules">
+            Guess the correct letters that spell the picture you see!<br><br> When you guess all of the right letters, you earn points!<br><br> Points reveal more of the prize puzzle!<br><br> Reveal the whole puzzle to move on to the next Level!
+        </p>
+
+    </section>
+
+    <div id="level-img"></div>
+
+
+    <div id="slot">
+        <ul id="slots"></ul>
+    </div>
+    <div id="chance">
+        <p id="r" class=""></p>
+    </div>
+    <div>
+        <ul id="alphabet"></ul>
+    </div>
+
+    <div id="modal"></div>
+
+
+
+    <section id="buttons">
+
+        <button type="button" id="start">Start Game</button>
+        <!-- <button type="button" id="replay">Replay</button> -->
+
+    </section>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
